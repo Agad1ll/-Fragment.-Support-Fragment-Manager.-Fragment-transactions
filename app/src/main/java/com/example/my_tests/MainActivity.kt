@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val listOfProduct = mutableListOf<Product>(
-            Product("apple", 100),
+            Product("apple", 150),
             Product("orange", 190),
             Product("banana", 160),
             Product("strawberry", 250),
